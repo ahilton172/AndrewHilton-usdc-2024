@@ -142,7 +142,6 @@ let posTestLength = postiveTest.Results;
 for(let x=0;x<posTestLength.length;x++){
     var postiveLineNum = postiveTest.Results[x].Line;
 }
-const num = 8
 if(postiveLineNum == 8){
     console.log("UNIT TEST 1 PASS: CORRECT LINE NUMBER");
 }else{
